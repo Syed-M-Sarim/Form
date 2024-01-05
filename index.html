@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Assignment</title>
+</head>
+<body>
+    <h1>User registration form</h1>
+    <form>
+   <div>First Name: <input type="text" placeholder="Exter first name" required></div></br>
+    <div>Last Name: <input type="text" placeholder="Enter last name" required></div></br>
+    <div>Password: <input type="password" placeholder="Enter password" required></div></br>
+    <div>Bio: <textarea placeholder="Tell about yourself" cols="20" rows="4"></textarea></div>    
+    <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" value="Gender" name="Gender" id="Male"><label for="Male">Male</label></br>
+            <input type="radio" value="Gender" name="Gender" id="Female"><label for="Female">Female</label></br>
+            <input type="radio" value="Gender" name="Gender" id="Other"><label for="Other">Other</label>
+        </fieldset>
+        <fieldset>
+            <legend>Interest:</legend>
+            <input type="checkbox" value="Interest" name="Interest"><label for="Music">Music</label></br>
+            <input type="checkbox" value="Interest" name="Interest"><label for="Gaming">Gaming</label></br>
+            <input type="checkbox" value="Interest" name="Interest"><label for="Sports">Sports</label></br>
+        </fieldset>
+        Countries <select name="Countries">
+            <option value="USA">USA</option>
+            <option value="PAK">PAK</option>
+            <option value="IND">IND</option>
+        </select></br></br>
+      Prefered Colours:  <select name="Country" size="5" multiple="multiple">
+            <option value="Red">Red</option>
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+        </select></br></br>
+       Profile Picture: <button>Choose Picture</button>
+       <input type="image" value="No file choosen"></br></br>
+       Birthdate: <input type="date"></br></br>
+       Email: <input type="email" placeholder="Enter e-mail" required></br></br>
+       Website: <input type="text" placeholder="Link" required></br></br>
+       Search: <input type="text" placeholder="Search" required></br></br>
+       <button>Submit</button>
+    </form>
+</body>
+</html> 
